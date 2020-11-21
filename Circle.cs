@@ -22,7 +22,7 @@ namespace AreaOfCircle
             string mpgInput = Console.ReadLine();
             double mpg = double.Parse(mpgInput);
 
-            Console.WriteLine("You could travel around the circle " + mpg / (2 * Math.PI * radius) + " times!");
+            Console.WriteLine("You would use " + (2 * Math.PI * radius) / mpg + " gallons to travel around the circle!");
         }
     }
 }
